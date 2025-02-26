@@ -47,19 +47,26 @@ section{
     align-items: center;
 }
 
-/* 
-*{
-    background-color: rgb(255, 255, 255);
-}
 
-nav{
-    width: 100%;
-    height: 100px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 20px;
-    float: left;
+.login-button{
+    background-color: rgb(248, 245, 255);
+    size-adjust: 10px;
+    border-radius: 14px;
+    padding: 10px 14px;
+    margin: 10px;
+    cursor: pointer;
+    color: rgb(121, 103, 0);
+    font-weight: 200;
+}
+.sign-up-button{
+    background-color: rgb(208, 204, 218);
+    size-adjust: 10px;
+    border-radius: 14px;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+    color: rgb(121, 103, 0);
+    font-weight: 200;
 }
 
 ul{
